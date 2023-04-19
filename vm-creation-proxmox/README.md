@@ -101,7 +101,11 @@ source ./set_proxmox_env_vars.sh
 4. terraform apply
 
 *<font color="f03c15">Note</font>: It is important to note that running the terraform apply command will make changes to the infrastructure, so it should be used with caution.*
+
 <p>&nbsp;</p>
+
 *This automation needs to have proper testing and review processes in place before applying changes to production environments or even implementing CI/CD pipeline for best practice.*
+
 <p>&nbsp;</p>
+
 *Also need to implement backend tfstate backups, whether its in S3 bucket, Azure containers or HashiCloud*
