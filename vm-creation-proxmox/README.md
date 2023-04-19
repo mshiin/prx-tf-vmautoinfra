@@ -1,6 +1,6 @@
 # 🚀 Proxmox VM automation via Terraform 🚀
 
-## ✨ Improvements based on Chris Lempa's template
+## ✨ Improvements based on Chris Lempa's boiler template
 
 ---
 
