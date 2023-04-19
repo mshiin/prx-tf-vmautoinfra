@@ -9,7 +9,7 @@ I separated the Terraform automation code into three main files to help organise
 
 File|Description
 ---|---
-**main.tf**|Typically contains the actual resource definitions and configuration blocks that define how the infrastructure should be provisioned.1
+**main.tf**|Typically contains the actual resource definitions and configuration blocks that define how the infrastructure should be provisioned.
 **terraform.auto.tfvars**|Used to store sensitive or environment-specific variables like VM-specific configurations. This file can be checked into version control, as it should not contain sensitive information such as API keys. Users only need to make changes here to clone VM's in Proxmox.
 **variables.tf**|Declares the variables used in the main.tf file, including their type and any default values. This file helps ensure consistency and provides a clear overview of the variables used in the Terraform automation code.
 
