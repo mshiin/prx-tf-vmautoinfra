@@ -64,6 +64,7 @@ PM_API_TOKEN_SECRET='your_token_secret_here'
 6. Create set_proxmox_env_vars.sh file and set the execute perms
 
 ```bash
+touch set_proxmox_env_vars.sh
 chmod +x set_proxmox_env_vars.sh
 ```
 
