@@ -106,6 +106,7 @@ source ./set_proxmox_env_vars.sh
 <p>&nbsp;</p>
 
 *This automation needs to have proper testing and review processes in place before applying changes to production environments or even implementing CI/CD pipeline for best practice.*
+*With the CI/CD pipeline you could also utilise and integrate the use of Packer to bake preconfigured images and deploy those vm images using Terraform.*
 
 <p>&nbsp;</p>
 
