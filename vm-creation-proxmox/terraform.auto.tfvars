@@ -1,6 +1,6 @@
 # CONFIG_VALUES
 # No need to include api creds in here
-proxmox_api_url             = "https://192.168.0.213:8006/api2/json"
+proxmox_api_url             = "https://0.0.0.0:8006/api2/json"
 
 # PROXMOX_VM_CONFIG_VALUES
   target_node = "CHANGE_TARGET_NODE"
